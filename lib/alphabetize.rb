@@ -1,8 +1,4 @@
-if a.length != b.length && ret == 0
-    ret = a.length <=> b.length
-  end
-  
-  ret
+
 
 def alphabetize(arr)
   ret = 0
