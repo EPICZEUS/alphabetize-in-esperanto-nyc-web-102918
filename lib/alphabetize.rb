@@ -13,9 +13,9 @@ def alphabetize(arr)
     end
     
     if a.length != b.length && ret == 0
-    ret = a.length <=> b.length
-  end
-  
-  ret
+      ret = a.length <=> b.length
+    end
+    
+    ret
   end
 end
