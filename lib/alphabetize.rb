@@ -5,6 +5,7 @@ def alphabetize(arr)
     i = 0
     while i < a.length && i < b.length
       
+      
       i += 1
     end
   end
