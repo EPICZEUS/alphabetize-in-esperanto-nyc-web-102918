@@ -2,7 +2,12 @@ def alphabetize(arr)
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
   arr.sort_by do |a, b|
+    ret = 0
+    
     i = 0
-    loop do
+    while i < a.length && i < b.length
+      
+      i += 1
+    end
   end
 end
