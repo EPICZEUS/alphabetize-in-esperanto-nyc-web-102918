@@ -12,4 +12,10 @@ def alphabetize(arr)
       i += 1
     end
   end
+  
+  if a.length != b.length && ret == 0
+    ret = a.length <=> b.length
+  end
+  
+  ret
 end
